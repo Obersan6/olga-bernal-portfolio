@@ -47,7 +47,7 @@ function Projects() {
                   description={
                     <>
                       <p className="bg-red-100 text-red-700 p-2 rounded-md text-sm font-semibold italic mb-4">
-                      🔒 This GitHub repo is private due to active development. Access available upon request.
+                      🔒 This GitHub repo is private due to ongoing development and commercialization plans. Selected code samples are available in the public showcase repository linked below.
                       </p>
                       
                       An educational diagnostic tool based on the <strong><em>DSM-5-TR</em></strong>, designed to help psychology and psychiatry students learn the diagnostic process. 
@@ -59,7 +59,7 @@ function Projects() {
                     </>
                   }
                   techStack={['Python', 'Flask', 'PostgreSQL', 'JavaScript', 'html', 'css', 'Bootstrap']}
-                  githubLink="https://github.com/Obersan6/PsychoDiagnose"
+                  githubLink="https://github.com/Obersan6/PsychoDiagnose-sample"
                   note="🔔 App may take a moment to load (free hosting)."
                   liveLink="https://capstone-1-deployment.onrender.com/"
                   image={psychodiagnoseImg}
