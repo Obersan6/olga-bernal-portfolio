@@ -26,7 +26,7 @@ function ProjectCard({ title, description, generalFeatures, techStack, githubLin
 
           {generalFeatures && (
             <p className="font-['comfortaa'] text-[15px] text-[#27374a] lg:text-left mb-4">
-              <span className="text-[#077488] font-semibold">General Features: </span>
+              <span className="text-[#077488] font-semibold">Overview: </span>
               {generalFeatures}
             </p>
           )}

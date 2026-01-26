@@ -20,8 +20,14 @@ function Home() {
 
             <h2 className="mt-6 mb-8 text-[#3AA6B9] font-['Sacramento']
                  text-[28px] sm:text-[36px] md:text-[48px] lg:text-[70px]">
-                Hi, I'm a Software Developer
+                Hi, I’m a software engineer.
+                {/* <br />
+                I build backend systems and APIs. */}
             </h2>
+            <h3 className="mt-6 mb-8 text-[#3AA6B9] font-['Sacramento']
+                 text-[18px] sm:text-[16px] md:text-[28px] lg:text-[50px]">
+                I build backend systems and APIs.
+                </h3>
 
         </section>
     );

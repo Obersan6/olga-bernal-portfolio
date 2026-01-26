@@ -46,16 +46,14 @@ function Projects() {
                   title="PsychoDiagnose"
                   description={
                     <>
-                      <p className="bg-red-100 text-red-700 p-2 rounded-md text-sm font-semibold italic mb-4">
-                      🔒 This GitHub repo is private due to ongoing development and commercialization plans. Selected code samples are available in the public showcase repository linked below.
+                      <p className="bg-red-100 text-red-700 p-2 rounded-md text-sm italic mb-4">
+                      🔒 <strong>Note:</strong> The primary GitHub repository for this project is private due to ongoing development and commercialization plans. A <strong><em>public sample repository</em></strong> showcasing selected backend patterns and code examples is available via the link below. 
                       </p>
-                      
-                      An educational diagnostic tool based on the <strong><em>DSM-5-TR</em></strong>, designed to help psychology and psychiatry students learn the diagnostic process. 
                     </>
                   }
                   generalFeatures={
                     <>
-                      <strong><em>Full-stack application</em></strong>, features a <strong><em>custom API</em></strong>, <strong><em>over 30 routes</em></strong>, responsive design, user authentication, search functionality with autocomplete, and dynamic content.
+                      An educational application supported by a custom backend API and structured data models designed to support diagnostic reasoning workflows. 
                     </>
                   }
                   techStack={['Python', 'Flask', 'PostgreSQL', 'JavaScript', 'html', 'css', 'Bootstrap']}
@@ -67,7 +65,7 @@ function Projects() {
                 />
               </div>
 
-              <div className="flex justify-center mt-20 mb-14">
+              {/* <div className="flex justify-center mt-20 mb-14">
                 <ProjectCard
                   title="AdoptaPet"
                   description={
@@ -159,7 +157,7 @@ function Projects() {
                   image={deckOfCards}
                   isFeatured={true}
                 />
-              </div>
+              </div> */}
               {/* More projects here */}
             </div>
 
