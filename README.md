@@ -1,49 +1,72 @@
 # 🌐 Personal Portfolio Website
 
-This is my personal portfolio website, built to showcase my software engineering projects, technical skills, and background. It includes live previews, GitHub links, and video demos for each project.
+This repository contains my personal portfolio website, where I showcase selected backend engineering work, projects, and technical skills.
 
-📍 Deployed at: [My Portfolio Website](https://obersan6.github.io/my-portfolio/)
+The portfolio focuses on data-driven systems, backend architecture, and software built around structured knowledge domains.
 
----
-
-## ✨ Features
-
-- Clean, responsive design using **Tailwind CSS**
-- Project cards with:
-  - 📸 Image thumbnails
-  - 📄 Descriptions & tech stack
-  - 🔗 Links to GitHub, live demos, and video walkthroughs
-- Fully responsive layout for mobile and desktop
-- Easily extendable and maintainable structure
+📍 **Live site:**  
+https://obersan6.github.io/my-portfolio/
 
 ---
 
-## 🛠️ Tech Stack
+## ✨ Overview
+
+The website presents my flagship backend project **PsychoDiagnose**, a system designed to model complex psychopathology knowledge using relational data structures and a REST API architecture.
+
+The goal of the portfolio is to provide a clear overview of:
+
+- Backend architecture and data modeling work
+- API design and system structure
+- Technical stack and engineering approach
+- Links to full documentation and repositories
+
+---
+
+## 🛠 Tech Stack
+
+The portfolio itself is built with:
 
 - **React**
 - **Vite**
 - **Tailwind CSS**
-- **FontAwesome** + **Devicon**
-- Deployed via **GitHub Pages**
+- **FontAwesome**
+- **Devicon**
+
+Deployment:
+
+- **GitHub Pages**
 
 ---
 
-## 🚀 Projects Included
+## 🚀 Featured Project
 
-- **PsychoDiagnose** — Full-stack *DSM-5-TR based* diagnostic tool.
-- **AdoptaDog** — Full-stack dog adoption platform.
-- **Jobly** — Full-stack job board application.
-- **Boggle Game** — Lightweight full-stack application, browser-based word game.
-- **To-Do List** — A simple, responsive to-do list app built with vanilla JavaScript, localStorage persistent.
-- **Deck of Cards** — A dynamic card-drawing app built with React.
+### PsychoDiagnose
 
-> **Note**: Some GitHub repos may be private during active development. Recruiters or collaborators can request access.
+A backend educational system that models the structure of psychopathology knowledge using:
+
+- **PostgreSQL relational database**
+- **Flask REST API**
+- **30+ API endpoints**
+- structured clinical descriptors and diagnostic reasoning workflows
+
+The project focuses on translating a complex knowledge domain into a clear, maintainable software architecture suitable for educational and research applications.
+
+Repository and documentation are available directly from the portfolio website.
 
 ---
 
-🧠 About Me
-I’m a full-stack software developer with a background in education, psychology, and research. I build tools that combine technology with real-world impact.
+## 🧠 About
 
-📫 Contact
-Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/olga-bernal/)
-Or reach out by email: obersan6@gmail.com
+I am a **backend engineer with a background in psychology**, focused on building structured data systems and backend architectures for education and health-related domains.
+
+My work centers on translating complex knowledge domains into scalable software systems that support learning, research, and future intelligent applications.
+
+---
+
+## 📫 Contact
+
+LinkedIn  
+https://www.linkedin.com/in/olga-bernal/
+
+Email  
+obersan6@gmail.com

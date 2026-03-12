@@ -1,188 +1,73 @@
 /* Projects Component */
 
-import React from 'react';
-import ProjectCard from './ProjectCard'; 
-import psychodiagnoseImg from '../assets/PsychoDiagnose-About.png';
-import adoptadogImg from '../assets/AdoptaDog-home.png';
-import joblyImg from '../assets/Jobly-home.png';
-import boggleGameImg from '../assets/boggle-game-img.png';
-import todoListimg from '../assets/todoList-img.png';
-import deckOfCards from '../assets/deck-of-cards-img.jpeg';
+import React from "react";
+import ProjectCard from "./ProjectCard";
+import psychodiagnoseImg from "../assets/PsychoDiagnose-About.png";
+import psychodiagnoseErd from "../assets/psycho_diagnose_erd.png";
 
 function Projects() {
-    return (
-      // <section id="projects" className="bg-[#b3e0ee] py-16 text-center">
-      // <section id="projects" className="bg-[#afe3f2] py-16 text-center">
-      // <section id="projects" className="bg-[#afe3f2] pt-25 pb-40 text-center">
-      // <section id="projects" className="bg-[#afe3f2] pt-10 pb-0 sm:pt-14 md:pt-20 text-center">
-<section
-  id="projects"
-  className="bg-[#afe3f2] pt-10 pb-10 sm:pt-14 md:pt-16 lg:pt-20 text-center"
->
+  return (
+    <section
+      id="projects"
+      className="bg-[#afe3f2] pt-10 pb-10 sm:pt-14 md:pt-16 lg:pt-20 text-center"
+    >
+      <h2 className="text-2xl sm:text-3xl md:text-[50px] font-['Montserrat'] text-[#077488] mb-8 sm:mb-10 md:mb-14">
+        Featured Project
+      </h2>
 
-
-
-          {/* <h2 className="text-2xl sm:text-4xl md:text-[50px] font-['Montserrat'] text-[#077488] mb-2 sm:mb-6">Projects</h2> */}
-          {/* <h2 className="text-2xl sm:text-4xl md:text-[50px] font-['Montserrat'] text-[#077488] mb-10">Projects</h2> */}
-            <h2 className="text-2xl sm:text-3xl md:text-[50px] font-['Montserrat'] text-[#077488] mb-8 sm:mb-10 md:mb-14">
-  Projects
-</h2>
-
-
-
-          {/* <h2 className="text-[50px] font-['Montserrat'] text-[#077488]">Projects</h2> */}
-          {/* <h2 className="text-[50px] font-['italiana'] text-[#077488]">Projects</h2> */}
-           
-            {/* Main Projects */}
-            <div className="space-y-16 mb-20">
-              
-              {/* Center each featured project */}
-              {/* <div className="flex justify-center mt-30 mb-14"> */}
-              {/* <div className="flex justify-center mt-6 sm:mt-10 md:mb-14"> */}
-              <div className="flex justify-center mt-0 mb-14">
-
-               
-                <ProjectCard
-                  title="PsychoDiagnose"
-                  description={
-                    <>
-                      <p className="bg-red-100 text-red-700 p-2 rounded-md text-sm italic mb-4">
-                      🔒 <strong>Note:</strong> The primary GitHub repository for this project is private due to ongoing development and commercialization plans. A <strong><em>public sample repository</em></strong> showcasing selected backend patterns and code examples is available via the link below. 
-                      </p>
-                    </>
-                  }
-                  generalFeatures={
-                    <>
-                      An educational application supported by a custom backend API and structured data models designed to support diagnostic reasoning workflows. 
-                    </>
-                  }
-                  techStack={['Python', 'Flask', 'PostgreSQL', 'JavaScript', 'html', 'css', 'Bootstrap']}
-                  githubLink="https://github.com/Obersan6/PsychoDiagnose-sample"
-                  note="🔔 App may take a moment to load (free hosting)."
-                  liveLink="https://capstone-1-deployment.onrender.com/"
-                  image={psychodiagnoseImg}
-                  isFeatured={true}
-                />
-              </div>
-
-              {/* <div className="flex justify-center mt-20 mb-14">
-                <ProjectCard
-                  title="AdoptaPet"
-                  description={
-                    <>
-                      <strong><em>A full-stack application</em></strong> that helps users find adoptable dogs across the U.S. 
-                    </>
-                  }
-                  generalFeatures={
-                    <>
-                      Secure authentication, real-time dog listings via the <strong><em>Petfinder API</em></strong>, search by breed or location, and a fully responsive design.
-                    </>
-                  }
-                  techStack={['JavaScript', 'React', 'Node.js', 'Express', 'JWT', 'css','Bootstrap']}
-                  githubLink="https://github.com/Obersan6/AdoptaDog"
-                  videoLink="https://www.youtube.com/watch?v=IUakRvD381A"
-                  image={adoptadogImg}
-                  isFeatured={true}
-                />
-              </div>
-
-              <div className="flex justify-center mt-20 mb-14">
-                <ProjectCard
-                  title="Jobly"
-                  description="A job board application built using React and a provided Express.js backend API. Users can browse companies and job listings, apply for jobs, and manage their profiles through a secure interface."
-                  generalFeatures={
-                    <>
-                      <strong><em>Full-stack application</em></strong> (frontend focus), integrates with a prebuilt RESTful API, secure user authentication with JWT, PostgreSQL data handling, protected routes and forms, job application tracking, and design using React and Bootstrap.
-                    </>
-                  }
-                  techStack={['React', 'Express', 'PostgreSQL', 'JWT', 'css', 'Bootstrap']}
-                  note="🔔 App may take a moment to load (free hosting)."
-                  githubLink="https://github.com/Obersan6/react-jobly-frontend"
-                  liveLink="https://react-jobly-frontend-8y5g.onrender.com/"
-                  image={joblyImg}
-                  isFeatured={true}
-                />
-              </div>
-
-              <div className="flex justify-center mt-20 mb-14">
-                <ProjectCard
-                  title="Boggle Game"
-                  description={
-                    <>
-                      A browser-based word game where users form words from a randomized letter grid. The app checks word validity, tracks scores, and provides live feedback — <strong><em>all powered by Flask and JavaScript</em></strong>.
-                    </>
-                  }
-                  generalFeatures={
-                    <>
-                      <strong><em>Lightweight full-stack application</em></strong> interactive game interface with real-time word validation, <strong><em>AJAX requests using Axios</em></strong>, <strong><em>backend logic in Flask</em></strong>, session-based score tracking, client-side timer, and responsive UI. Includes backend routes for scoring, validation, and game state, as well as JSON-based communication between client and server.
-                    </>
-                  }
-                  techStack={['Python', 'Flask', 'JavaScript', 'html', 'css']}
-                  githubLink="https://github.com/Obersan6/flask-boggle"
-                  videoLink="https://youtu.be/uB6AyBCDPBA"
-                  image={boggleGameImg}
-                  isFeatured={true}
-                />
-              </div>
-
-              <div className="flex justify-center mt-20 mb-14">
-                <ProjectCard
-                  title="To-Do List"
-                  description={
-                    <>
-                      A simple, responsive to-do list app built with vanilla JavaScript. Users can add, delete, and <strong><em>persist tasks across sessions using localStorage</em></strong>.
-                    </>
-                  }
-                  generalFeatures="Frontend-only application with dynamic DOM manipulation, real-time task updates, localStorage persistence, form validation, and clean responsive design using CSS and Bootstrap."
-                  techStack={['JavaScript', 'HTML', 'CSS', 'Bootstrap']}
-                  githubLink="https://github.com/Obersan6/To-Do-List"
-                  liveLink="https://obersan6.github.io/To-Do-List/"
-                  image={todoListimg}
-                  isFeatured={true}
-                />
-              </div>
-
-              <div className="flex justify-center mt-20 mb-14">
-                <ProjectCard
-                  title="Draw a Deck"
-                  description={
-                    <>
-                      A dynamic card-drawing app built with <strong><em>React</em></strong> and the <strong><em>Deck of Cards API</em></strong>. Users can draw cards one by one from a shuffled deck, watch them appear in real time, and reset the deck at any time.
-                    </>
-                  }
-                  generalFeatures="Frontend-only application with API integration, real-time rendering using useEffect and useState, automated intervals for card drawing, conditional rendering, and smooth user interaction through React components."
-                  techStack={['React', 'HTML', 'CSS']}
-                  githubLink="https://github.com/Obersan6/Draw-a-Deck"
-                  liveLink="https://obersan6.github.io/Draw-a-Deck/"
-                  image={deckOfCards}
-                  isFeatured={true}
-                />
-              </div> */}
-              {/* More projects here */}
-            </div>
-
-            {/* Other Projects */}
-            {/* <h2 className="text-[50px] font-['Montserrat'] text-[#077488] mt-4">Other Projects</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10"> */}
-                {/* Small/Other projects */}
-                {/* <ProjectCard
-                  title="Weather App"
-                  description="A simple weather dashboard using OpenWeather API."
-                  techStack={['JavaScript', 'HTML', 'CSS']}
-                  githubLink="#"
-                  isFeatured={false}
-                />
-                <ProjectCard
-                  title="Markdown Previewer"
-                  description="A live markdown editor built with React."
-                  techStack={['React']}
-                  githubLink="#"
-                  isFeatured={false}
-                /> */}
-                {/* Add many more */}
-            {/* </div> */}
-        </section>
-    );
+      {/* Main Projects */}
+      <div className="space-y-16 mb-20">
+        <div className="flex flex-col items-center mt-0 mb-14">
+          <p className="project-feature-label text-sm uppercase text-[#077488] mb-4">
+            Flagship Backend Project
+          </p>
+          <ProjectCard
+            title="PsychoDiagnose — Backend System for Psychopathology Education"
+            description={
+              <>
+                <span className="italic">
+                  Relational modeling of the DSM-5-TR diagnostic framework
+                </span>
+                <br />
+                <br />
+                A backend educational application that models the diagnostic
+                structure of the DSM-5-TR using a relational PostgreSQL database
+                and a Flask REST API.
+                <br />
+                <br />
+                The system organizes disorders, diagnostic criteria, signs,
+                symptoms, differential diagnoses, and related educational
+                content into a structured relational model designed for
+                exploration of psychopathological semiology.
+                <br />
+                <br />
+                It was built to support clear domain modeling, maintainable
+                backend logic, and API-driven access to interconnected clinical
+                and educational data.
+              </>
+            }
+            generalFeatures={
+              <>
+                Includes relational schema design, a Flask REST API architecture
+                with 30+ endpoints, structured educational content delivery,
+                search/autocomplete support, and backend logic designed to guide
+                diagnostic reasoning workflows without performing diagnosis.
+              </>
+            }
+            techStack={["Python", "Flask", "PostgreSQL", "SQLAlchemy"]}
+            githubLink="https://github.com/Obersan6/PsychoDiagnose"
+            note="🔔 App may take a moment to load (free hosting)."
+            erdLink="https://github.com/Obersan6/PsychoDiagnose/tree/main?tab=readme-ov-file#entity-relationship-diagram-erd"
+            docsLink="https://github.com/Obersan6/PsychoDiagnose/tree/main?tab=readme-ov-file#psychodiagnose--a-relational-backend-engine-for-psychopathology-education"
+            liveLink="https://capstone-1-deployment.onrender.com/"
+            image={psychodiagnoseImg}
+            erdImage={psychodiagnoseErd}
+            isFeatured={true}
+          />
+        </div>
+      </div>
+    </section>
+  );
 }
 
 export default Projects;
