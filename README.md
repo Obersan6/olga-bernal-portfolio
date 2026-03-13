@@ -5,7 +5,7 @@ This repository contains my personal portfolio website, where I showcase selecte
 The portfolio focuses on data-driven systems, backend architecture, and software built around structured knowledge domains.
 
 📍 **Live site:**  
-https://obersan6.github.io/my-portfolio/
+https://obersan6.github.io/olga-bernal-portfolio/
 
 ---
 
